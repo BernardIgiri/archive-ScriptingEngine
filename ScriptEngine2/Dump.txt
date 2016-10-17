@@ -1,0 +1,51 @@
+INCLUDE - const char * SystemName
+
+EXIT - null
+
+BEGINSCOPE - null
+
+ENDSCOPE - null
+
+RETURN - null
+
+BREAK  - null
+
+LOOP - null
+
+SKIP - null
+
+NEWVAR - enum var_type, VARVALUE initVal
+
+DELVAR - unsigned varID
+
+COPY - unsigned destVarID, unsigned srcVarID
+
+CALLFUNCTION - unsigned varID, 
+
+IF - unsigned varID
+
+ELSE
+
+ENDIF
+
+AND - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+OR - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+NOT - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+ISGTR - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+ISLESS - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+ISEQUAL - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+ADD - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+SUB - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+MULT - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+DIV - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
+
+PWR - unsigned destVarID, unsigned leftSrcVarID, unsigned rightSrcVarID
